@@ -3,7 +3,7 @@ async function robob() {
         const lvlid = document.getElementById("lvlid");
         const lvl = lvlid.value;
 
-        const response = await fetch('http://www.boomlings.com/database/downloadGJLevel22.php', {
+        const response = await fetch('https://www.boomlings.com/database/downloadGJLevel22.php', {
             method: 'POST',
             headers: {
                 'User-Agent': '',
